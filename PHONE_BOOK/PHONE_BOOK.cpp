@@ -150,7 +150,7 @@ int main()
 {
 	test1();
 	test2();
-	cout<< "tests_ok";
+	cout<< "tests_ok" <<endl;
 	setlocale(LC_ALL, "rus");
 	PHONE_BOOK myPhoneBook;
 	int x;
