@@ -26,7 +26,7 @@ jobs:
      
       # Runs a single command using the runners shell
       - name: compilling
-        run: g++ function.h function.cpp
+        run: g++ PHONE_BOOK/PHONE_BOOK.cpp
 
       # Runs a set of commands using the runners shell
       - name: Run a program
