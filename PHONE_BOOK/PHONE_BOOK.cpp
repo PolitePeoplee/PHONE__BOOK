@@ -151,7 +151,6 @@ int main()
 	test1();
 	test2();
 	cout<< "tests_ok" <<endl;
-	system("pause");
 	setlocale(LC_ALL, "rus");
 	PHONE_BOOK myPhoneBook;
 	int x;
