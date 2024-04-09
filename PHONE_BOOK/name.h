@@ -5,6 +5,7 @@
 #include <cassert>
 #include <vector>
 #include <cstring>
+using namespace std;
 vector<int> found(string find_name);
 void showuserdata(vector<int> nums);
 bool only_digits(const char* phone_number);
