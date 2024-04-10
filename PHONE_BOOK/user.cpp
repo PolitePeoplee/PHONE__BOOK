@@ -6,7 +6,7 @@ PHONE_BOOK::PHONE_BOOK()
 		father_s_name = new char[50];
 		phone_number = new char[11];
 	}
-PHONE__BOOK::write_to_file() //метод для записи в файл
+void PHONE__BOOK::write_to_file() //метод для записи в файл
 	{
 		ofstream out("Phone__book.txt", ios::app);
 		if (out.is_open())
@@ -22,7 +22,7 @@ PHONE__BOOK::write_to_file() //метод для записи в файл
 			cout << "Не удалось открыть файл" << endl;
 	}
 
-PHONE_BOOK::enter_fio() //метод для ввода фио
+void PHONE_BOOK::enter_fio() //метод для ввода фио
 	{
 		cout << "Введите Вашу фамилию:" << " ";
 
@@ -73,7 +73,7 @@ PHONE_BOOK::enter_fio() //метод для ввода фио
 		}
 	}
 
-PHONE_BOOK::enter_number() //метод для ввода номера
+void PHONE_BOOK::enter_number() //метод для ввода номера
 	{
 		do
 		{
@@ -91,7 +91,7 @@ PHONE_BOOK::enter_number() //метод для ввода номера
 	}
 
 
-	PHONE_BOOK::enter_find_word()
+	void PHONE_BOOK::enter_find_word()
 	{
 		cout << "Введите ФИО пользователя, которого хотите найти: ";
 		getline(cin, find_family);
