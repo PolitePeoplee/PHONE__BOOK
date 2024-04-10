@@ -7,7 +7,7 @@ private:
     char* last_name;
     char* father_s_name;
     char* phone_number;
-    string* find_family;
+    //string* find_family;
 public:
 PHONE_BOOK();
 void write_to_file();
