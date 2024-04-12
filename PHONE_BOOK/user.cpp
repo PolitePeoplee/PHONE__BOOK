@@ -1,4 +1,5 @@
 #include "user.h"
+using namespace std;
 PHONE_BOOK::PHONE_BOOK()
 	{
 		first_name = new char[50];
@@ -6,7 +7,7 @@ PHONE_BOOK::PHONE_BOOK()
 		father_s_name = new char[50];
 		phone_number = new char[11];
 	}
-void PHONE__BOOK::write_to_file() //метод для записи в файл
+void PHONE_BOOK::write_to_file() //метод для записи в файл
 	{
 		ofstream out("Phone__book.txt", ios::app);
 		if (out.is_open())
