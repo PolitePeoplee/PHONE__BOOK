@@ -1,5 +1,4 @@
 #include"test.h"
-#include"user.h"
 void test1()
 {
 	const char* test_number1 = "4444444444";
