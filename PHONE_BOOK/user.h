@@ -1,5 +1,3 @@
-#include<string>
-#include<iostream>
 #include"name.h"
 using namespace std;
 struct PHONE_BOOK
